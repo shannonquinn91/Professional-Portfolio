@@ -1,0 +1,60 @@
+nav {
+    background-color: grey;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+#project-cards {
+    margin-top: 10px;
+}
+
+.projects {
+    height: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.p-btn {
+    margin-right: 20px;
+}
+
+.p-card {
+    max-width: 800px;
+    margin: auto;
+}
+
+.section {
+    text-align: center;
+    font-weight: bold;
+}
+
+.c-btn {
+    margin-right: 20px;
+}
+
+.fab {
+    height: auto;
+    width: fit-content;
+}
+
+body {
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.section {
+    color: white;
+}
+
+.card-body {
+    background-color: lightgrey;
+}
+
+.bio {
+    height: auto;
+    width: 100%;
+}
