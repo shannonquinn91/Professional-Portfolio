@@ -12,11 +12,13 @@
     <script src="https://kit.fontawesome.com/2dae21d52f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Shannon Quinn</a>
+        <a class="navbar-brand" id="name-nav" href="#">Shannon Quinn</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,20 +38,19 @@
     </nav>
     
     <div class="container">
-        <h2 class="section" id="sect-about">About Me</h2>
-        <div class="card mb-3">
+        <h2 class="section-about">About Me</h2>
+        <div class="card mb-3" style="border: none;">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img src="./assets/26110_381683018525_119430_n.jpg" class="card-img bio" alt="headshot">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-8" style="background-color: lightgrey;">
                 <div class="card-body">
                   <h5 class="card-title">Hi! I'm Shannon.</h5>
                   <br>
                   <p class="card-text">My background and life-long involvement in athletics has made me the ultimate team-player in my professional career. I am currently working towards a full-stack web developer certificate from the Univesity of New Hampshire. I am working on skills in HTML, CSS, Javascript, and responsive web design. As I seek opportunities in this new field, I am looking forward to new challenges and collaborating with others to create exciting and effective experiences on the web. I have built a portfolio of work to showcase my understanding and ability to work with different languages.</p>
                   <br>
-                  <br>
-                  <a class="btn btn-primary btn-lg btn-block" href="/assets/SQuinn Resume Jan 21.pdf" target="_blank">
+                  <a class="btn btn-primary btn-lg btn-block" href="/assets/SQuinn Resume1.29.21.pdf" target="_blank">
                     <i class="fas fa-paperclip"></i>
                     Click here to view my resume.
                   </a>  
@@ -60,6 +61,18 @@
         <br>
         <h2 class="section" id="sect-proj">Projects</h2>
         <div class="card text-center p-card">
+            <div class="card-header">
+                <h5>Group Project: Full Stack Application</h5>
+            </div>
+            <div class="card-body">
+              <img src="./assets/sign_in.png" class="card-img projects" alt="project2">
+              <h5 class="card-title">Hydrohomies</h5>
+              <p class="card-text">I worked with fellow bootcamp students on an application for users to rate and review their favorite drinks. We utilized a MySQL database, Node.js, Express.js, and several APIs to create the functionality. The application is deployed on Heroku.</p>
+              <a href="https://hydro-homies.herokuapp.com/index.html" class="btn btn-success p-btn" target="_blank">Deployed Page</a>
+              <a href="https://github.com/shannonquinn91/hydrohomies" class="btn btn-info p-btn" target="_blank">GitHub Repo</a>
+            </div>
+          </div>
+        <div class="card text-center p-card" id="project-cards">
             <div class="card-header">
                 <h5>Group Project: Online Bakery Website</h5>
             </div>
@@ -73,13 +86,13 @@
           </div>
         <div class="card text-center p-card" id="project-cards">
             <div class="card-header">
-                <h5>Random Password Generator</h5>
+                <h5>Markdown Generator</h5>
             </div>
             <div class="card-body">
-              <img src="./assets/with_password.png" class="card-img projects" alt="pwgenerator">
-              <h5 class="card-title">Random Passowrd Generator</h5>
-              <p class="card-text">I created a webpage which takes input from the user to create a random password made up of upper- and lower-case characters, special characters, and numbers 0-9. </p>
-              <a href="https://shannonquinn91.github.io/Random-Password-Generator/" class="btn btn-success p-btn" target="_blank">Deployed Page</a>
+              <img src="./assets/Screen Shot 2021-01-29 at 9.44.32 AM.png" class="card-img projects" alt="mdgenerator">
+              <h5 class="card-title">README Generator</h5>
+              <p class="card-text">I created a command line application which takes user input and creates a markdown file. The application uses Node.js and Inquirer to get the information from the user and inserts it into the proper sections of the markdown file.</p>
+              <a href="https://drive.google.com/file/d/1hRwo792ncw6PGfS9M7yLJjtVZlD_pg4q/view" class="btn btn-success p-btn" target="_blank">Video Tutorial</a>
               <a href="https://github.com/shannonquinn91/Random-Password-Generator" class="btn btn-info p-btn" target="_blank">GitHub Repo</a>
             </div>
           </div>

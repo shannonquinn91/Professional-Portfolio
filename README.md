@@ -6,4 +6,4 @@ After spending the last 8 weeks in the Coding Bootcamp, I have created a profess
 Repo link: https://github.com/shannonquinn91/Professional-Portfolio
 Deployed Page link: https://shannonquinn91.github.io/Professional-Portfolio/ 
 
-![screenshot](./assets/screenshot11-13-20.png)
+![screenshot](./assets/updated1.29.21.png)
